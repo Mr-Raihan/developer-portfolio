@@ -6,7 +6,7 @@ body {
 h1 {
   font-size: 50px;
 }
-section {
+.flexContainer {
   display: flex;
   margin-bottom: 200px;
 }
@@ -28,4 +28,20 @@ section {
 .top-banner {
   background-image: url(media/top-banner.png);
   background-repeat: no-repeat;
+}
+.exp {
+  box-shadow: 10px 10px 30px gray;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+}
+.exp-area {
+  background-image: url(media/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.exp-area h3 {
+  color: orange;
+}
+.exp-area h2 {
+  font-size: 30px;
 }
